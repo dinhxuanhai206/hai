@@ -1,0 +1,51 @@
+@import "../_base.scss";
+@import "../_mixins.scss";
+@import "../_variables.scss";
+
+.Doctor__container{
+    max-width: 1240px;
+    margin: auto;
+    position: relative;
+    padding-bottom: 330px;
+
+
+    .Doctor__container-image{
+        width: 1240px;
+        margin: auto;
+        .Doctor-image{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .Doctor__container-text{
+        border: 1px solid rgba(74, 128, 221, 0.2);
+        border-radius: 10px;
+        box-shadow:0 8px 8px 0 rgba(103, 151, 255, .11), 0 12px 18px 0 rgba(103, 151, 255, .21);
+        padding: 30px;
+        width: 1024px;
+        background-color: white;
+        margin: auto;
+        position: absolute;
+        bottom: 50px;
+        left: 108px;
+    
+        
+        .Doctor__text-title{
+            font-size: 30px;
+            color: rgb(245, 7, 70);
+            text-align: center;
+            margin-bottom: 20px;
+            .line{
+               margin: 10px 280px;
+                width: 400px;
+                height: 1px;
+                background: rgb(245, 7, 70);
+            }
+          
+        }
+        .Doctor-p{
+            margin-bottom: 20px;
+        
+        }
+    }
+}

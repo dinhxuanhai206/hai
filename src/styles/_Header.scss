@@ -1,0 +1,39 @@
+@import"./_base.scss";
+@import "./mixins";
+@import "./variables";
+
+.header-container{
+    max-width: 1920px;
+    margin: auto;
+    
+    .container{
+        max-width: 1240px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        
+        .header__menu{
+            .menu{
+                display: inline-block;
+                padding: 0 15px;
+                list-style-type: none;
+            }
+           
+        }
+
+
+    }
+    .header-top{
+        background-color: #00FFFF;
+        color: Red;
+        
+        .header_top-time{
+            text-align: center;
+            padding: 10px 0;
+        }
+    }
+    
+
+}

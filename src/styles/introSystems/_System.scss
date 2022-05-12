@@ -1,0 +1,70 @@
+@import "../_base.scss";
+@import "../_mixins.scss";
+@import "../_variables.scss";
+
+.System-container {
+  .Sytem-intro {
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+    .System_intro-text {
+      max-width: 600px;
+
+      .intro_text-title {
+        font-size: 32px;
+        font-weight: 500;
+        color: rgb(245, 7, 70);
+        text-align: center;
+        margin-top: -40px;
+        margin-bottom: 20px;
+      }
+      .intro_text-content {
+        line-height: 30px;
+        .intro_p {
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .System_intro-chart {
+      max-width: 600px;
+      .chart-img {
+        width: 100%;
+      }
+    }
+  }
+
+  .System-infrastructure {
+    max-width: 1240px;
+    margin: 70px auto;
+    .System_infrastructure-title {
+      font-size: 32px;
+      font-weight: 500;
+      color: rgb(245, 7, 70);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .System_infrastructure-content {
+    }
+    .System_infrastructure-image {
+      display: flex;
+      justify-content: space-between;
+      max-width: 300px;
+      gap: 15px;
+      margin-top: 50px;
+      .infraImage {
+        width: 100%;
+        border-radius: 10%;
+      }
+    }
+  }
+  .System__bottom {
+    max-width: 1920px;
+    margin: auto;
+    background: rgb(58,235,161);
+    background: linear-gradient(126deg, rgba(58,235,161,1) 0%, rgba(36,236,207,1) 0%, rgba(216,238,215,1) 100%);
+  }
+}

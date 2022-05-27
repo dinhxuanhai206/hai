@@ -3,14 +3,14 @@
 @import "../_variables.scss";
 
 .Doctor__container{
-    max-width: 1240px;
+    max-width: 1024px;
     margin: auto;
     position: relative;
     padding-bottom: 330px;
 
 
     .Doctor__container-image{
-        width: 1240px;
+        width: 1024px;
         margin: auto;
         .Doctor-image{
             width: 100%;
@@ -22,24 +22,24 @@
         border-radius: 10px;
         box-shadow:0 8px 8px 0 rgba(103, 151, 255, .11), 0 12px 18px 0 rgba(103, 151, 255, .21);
         padding: 30px;
-        width: 1024px;
-        background-color: white;
+        max-width: 850px;
+        background-color: $main-bg;
         margin: auto;
         position: absolute;
         bottom: 50px;
-        left: 108px;
+        left: 87px;
     
         
         .Doctor__text-title{
             font-size: 30px;
-            color: rgb(245, 7, 70);
+            color: $color-title;
             text-align: center;
             margin-bottom: 20px;
             .line{
-               margin: 10px 280px;
+               margin: 10px 200px;
                 width: 400px;
                 height: 1px;
-                background: rgb(245, 7, 70);
+                background: $color-title;
             }
           
         }

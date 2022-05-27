@@ -81,9 +81,9 @@ const Customer = () => {
         <div className='Customer-text'>
         Quý khách vui lòng đặt lịch hẹn trước để được CHỦ ĐỘNG – ƯU TIÊN – TIẾT KIỆM THỜI GIAN!
         </div>
-        <div className="System_infrastructure-image">
+        <div className="System_Customer-image">
           {cusImages.map((cusImage, i) => (
-            <div className='imageWrapper'>
+            <div className='imageWrapper' key={i}>
                 <img src={cusImage.image} className="cusImage"
                  onClick={() => handelOpen(i)} />
             </div>

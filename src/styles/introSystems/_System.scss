@@ -3,8 +3,11 @@
 @import "../_variables.scss";
 
 .System-container {
+  max-width: 1920px;
+  margin: auto;
+  margin-bottom: 50px;
   .Sytem-intro {
-    max-width: 1240px;
+    max-width: 1024px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -12,12 +15,12 @@
     margin-top: 50px;
 
     .System_intro-text {
-      max-width: 600px;
+      max-width: 50%;
 
       .intro_text-title {
         font-size: 32px;
         font-weight: 500;
-        color: rgb(245, 7, 70);
+        color: $color-title;
         text-align: center;
         margin-top: -40px;
         margin-bottom: 20px;
@@ -30,7 +33,7 @@
       }
     }
     .System_intro-chart {
-      max-width: 600px;
+      max-width: 50%;
       .chart-img {
         width: 100%;
       }
@@ -38,12 +41,12 @@
   }
 
   .System-infrastructure {
-    max-width: 1240px;
+    max-width: 1024px;
     margin: 70px auto;
     .System_infrastructure-title {
       font-size: 32px;
       font-weight: 500;
-      color: rgb(245, 7, 70);
+      color: $color-title;
       text-align: center;
       margin-bottom: 20px;
     }
@@ -52,7 +55,7 @@
     .System_infrastructure-image {
       display: flex;
       justify-content: space-between;
-      max-width: 300px;
+      max-width: 245px;
       gap: 15px;
       margin-top: 50px;
       .infraImage {
@@ -64,7 +67,7 @@
   .System__bottom {
     max-width: 1920px;
     margin: auto;
-    background: rgb(58,235,161);
-    background: linear-gradient(126deg, rgba(58,235,161,1) 0%, rgba(36,236,207,1) 0%, rgba(216,238,215,1) 100%);
+    padding-bottom: 30px;
+    background: $main-bg;
   }
 }

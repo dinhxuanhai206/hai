@@ -11,6 +11,7 @@ import Whyspa from "./Whyspa";
 import Newpaper from "./Newpaper";
 import "../../styles/introSystems/_System.scss";
 import Customer from "./Customer";
+import Slice from "./Slice";
 
 const infraImages = [
   {
@@ -33,6 +34,7 @@ const infraImages = [
 const System = () => {
   return (
     <div className="System-container">
+      <Slice />
       {/* GIỚI THIỆU HỆ THỐNG THẨM MỸ VIỆN HÀNG ĐẦU VIỆT NAM */}
       <div className="Sytem-intro">
         <div className="System_intro-text">
@@ -131,7 +133,7 @@ const System = () => {
         </div>
         <div className="System_infrastructure-image">
           {infraImages.map((infraImage, index) => (
-            <img src={infraImage.image} className="infraImage" />
+            <img key={index} src={infraImage.image} className="infraImage" />
           ))}
         </div>
       </div>
@@ -149,9 +151,11 @@ const System = () => {
         {/* TẠI SAO SPA BẮT ĐẦU */}
         <Whyspa />
         {/* TẠI SAO SPA KẾT THÚC */}
+
         {/* TẠI SAO SPA BẮT ĐẦU */}
         <Newpaper />
         {/* TẠI SAO SPA KẾT THÚC */}
+
         {/* KHÁCH HÀNG ĐÁNH GIÁ BẮT ĐẦU */}
         <Customer />
         {/* KHÁCH HÀNG ĐÁNH GIÁ KẾT THÚC */}

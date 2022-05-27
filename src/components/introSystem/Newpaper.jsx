@@ -52,7 +52,7 @@ const Newpaper = (props) => {
       >
 
           {newImages.map((newImage, i) => (
-            <SwiperSlide className="Swiper-slice">
+            <SwiperSlide className="Swiper-slice" key={i}>
             <img src={newImage.img} className="img" />
             </SwiperSlide>
           ))}

@@ -33,7 +33,7 @@ const Whyspa = () => {
       <div className="Whyspa-title">TẠI SAO CHỌN SEOULSPA.VN?</div>
       <div className="Whyspa-content">
         {whyspaImages.map((whyspaImage, index) => (
-          <div>
+          <div key={index}>
             <img src={whyspaImage.image} className="whyspaImage" />
             <div className="Whyspa-dir">
                 {whyspaImage.direction}

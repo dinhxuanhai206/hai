@@ -27,12 +27,13 @@ const ScrollToTop = () => {
                   right: "50px",
                   width: "50px",
                   height: "50px",
-                  backgroundColor: "blue",
-                  border:"none",
+                  background: "#b1812c",
+                  border:"0.5px solid white",
                   color: "white",
                   fontSize:"30px",
                   padding: "10px",
                   borderRadius: "50%",
+                  cursor:"pointer",
                 }}
                   onClick={goToTop}
                   >

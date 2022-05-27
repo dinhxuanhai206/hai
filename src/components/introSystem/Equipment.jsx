@@ -73,7 +73,7 @@ const Equipment = () => {
         </p>
         <div className="Equipment__container-Image">
           {equiImages.map((equiImage, i) => (
-            <div className="equiImageWrapper">
+            <div className="equiImageWrapper" key={i}>
               <img
                 src={equiImage.image}
                 className="equiImage"

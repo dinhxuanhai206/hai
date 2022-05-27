@@ -3,12 +3,12 @@
 @import "../_variables.scss";
 
 .Whyspa__container{
-    max-width: 1240px;
+    max-width: 1024px;
     margin: auto;
     .Whyspa-title{
         font-size: 32px;
         font-weight: 500;
-        color: rgb(245, 7, 70);
+        color: $color-title;
         text-align: center;
         margin: 40px;
     }
